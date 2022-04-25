@@ -4,4 +4,7 @@ install.packages(c("remotes",
                    "tinytex",
                    "gapminder"))
 
+tinytex::install_tinytex()
+
 remotes::install_github("crsh/papaja")
+
